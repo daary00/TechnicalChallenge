@@ -1,0 +1,10 @@
+<h1>Look for a Country</h1>
+
+<form action="{% url 'search_results' %}" method="get">
+    <input name="q" type="text" placeholder="Search">
+    <div class="input-group-append">
+        <button class="btn btn-outline-info my-2 my-sm-0 my-button" type="submit">Search
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+</form>
